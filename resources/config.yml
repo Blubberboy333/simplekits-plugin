@@ -1,0 +1,14 @@
+# Kit format is below.
+# KitName: Description
+# Items:
+#   - Item1
+#   - Item2
+#   - Item3
+
+Default: Default kit
+Items:
+  - 298
+  - 299
+  - 300
+  - 301
+  - 268

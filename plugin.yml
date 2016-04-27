@@ -7,10 +7,14 @@ Description: gives a player a kit when they run the command
 
 Commands:
       kit: 
-       usage: /kit <kit name>
+       usage: /kit <KitName>
        description: gives a player a kit
        permission: kit.use
 permissions:
-           Kit:
-               default:
-               description:
+           kit:
+               default: false
+               description: Allows the player to use all of the SimpleKits features
+               children:
+                     kit.use:
+                           default: false
+                           description: Allows the player to use the Kit command
